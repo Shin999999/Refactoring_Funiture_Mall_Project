@@ -2,6 +2,18 @@
 가구 쇼핑몰 웹 개발 팀 프로젝트 (리팩토링 2024.02 ~ )
 
 **리팩토링 목표**
+
+|프로젝트 기본 설정|
+|------|
+|Java 버전 11 -> 17|
+|스프링부트 버전 2.7.x -> 3.1.8|
+|Java EE -> Jakarta EE로 변경|
+|application.properties 수정|
+|스프링 시큐리티 기존 -> 6.x|
+|스프링 시큐리티 deprecated 코드 수정|
+|지원이 중단된(deprecated) API 수정|
+
+```markdown
 - 사용자 이메일 인증, 회원가입 구현
 - 결제 기능 구현
 - 찜하기 기능 구현
@@ -21,6 +33,7 @@
 - Security 리팩토링
 - HATEOAS 도입
 - Commit 컨벤션 정하기.
+```
 
 # Furniture_Mall_Project
 ![image](https://github.com/shsh99/Furniture_Mall_Project/assets/134079624/e345ed1e-88a5-473d-8a52-389513e7d75a)
